@@ -2,6 +2,8 @@
   width: 142px;
   height: 42px;
   padding: 16px 0 0 16px;
+  object-fit: cover;
+  display: block;
 }
 @media screen and (min-width: 768px) {
   .header__logo {
