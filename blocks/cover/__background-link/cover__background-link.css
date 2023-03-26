@@ -10,9 +10,10 @@
   color: #ffffff;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   z-index: 1;
-  min-height: 200px;
+  min-height: calc(100vw / 1.6);
 }
 .cover__background-link::before {
   content: "";
