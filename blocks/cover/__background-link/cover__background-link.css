@@ -14,6 +14,7 @@
   align-items: center;
   z-index: 1;
   min-height: calc(100vw / 1.6);
+  row-gap: 16px;
 }
 .cover__background-link::before {
   content: "";
@@ -27,11 +28,12 @@
   background-color: #2a2c2f;
   z-index: -1;
 }
-.cover__background-link:hover {
+.cover__background-link:hover::before {
   opacity: 0.8;
 }
 @media screen and (min-width: 768px) {
   .cover__background-link {
+    row-gap: 32px;
     min-height: 480px;
   }
 }
